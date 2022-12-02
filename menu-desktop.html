@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Quicksand:wght@300;500;700&family=Rakkas&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        :root {
+            --white: #FFFFFF;
+            --black: #000000;
+            --brown4: #AD8B73;
+            --brown3: #CEAB93;
+            --brown2: #E3CAA5;
+            --brown1: #FFFBE9;
+            --sm: 14px;
+            --md: 16px;
+            --lg: 18px;
+        }
+        body {
+            margin: 0;
+            font-family: 'Quicksand', sans-serif;
+            }
+        .desktop-menu {
+            width: 100px;
+            height: auto;
+            border: 1px solid var(--brown2);
+            border-radius: 6px;
+            padding: 20px 20px 0 20px;
+        }
+        .desktop-menu ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .desktop-menu ul li {
+            text-align: end;
+        }
+        .desktop-menu ul li:nth-child(1), .desktop-menu ul li:nth-child(2) {
+            font-weight: bold;
+        }
+        .desktop-menu ul li:last-child {
+            padding-top: 20px;
+            border-top: 1px solid var(--brown2);
+        }
+        .desktop-menu ul li:last-child a {
+            color: var(--brown4);
+            font-size: var(--sm);
+        }
+        .desktop-menu ul li a {
+            color: var(--black);
+            text-decoration: none;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="desktop-menu">
+        <ul>
+            <li>
+                <a href="/" class="title">Mis órdenes</a>
+            </li>
+
+            <li>
+                <a href="/">Mi cuenta</a>
+            </li>
+
+            <li>
+                <a href="/">Cerrar sesión</a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
